@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ky::selection{
+    background-color: none;
+}
+
+h1{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+    background-color: #ccc;
+    width: 100%;
+    height: 370px;
+    border: 1px solid black;
+    margin-top: 20%;
+}
+
+
+h1{
+    transition: 1s;
+}
+
+h1:hover{
+    letter-spacing: 10px; 
+}
+
+.piano{
+    border: 1px solid red;
+    margin: 20px auto;
+    height: 284px;
+}
+
+.key{
+    position: relative;
+    border: none;
+    float: left;
+}
+
+.kWhite{
+    border: none;
+}
+
+.kBlack{
+    border: none;
+    position: absolute;
+    right: -18px;
+    z-index: 2;
+}
+
+.ky{
+    cursor: pointer;
+}
